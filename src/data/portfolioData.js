@@ -8,9 +8,9 @@ export const profile = {
   name: "Suryanarayana S",
   title: "B.Tech Information Technology Student",
   heroDescription:
-    "Interested in software development, web development, developer tools, and AI applications. Building projects to learn, explore ideas, and develop practical technical skills.",
+    "Aspiring Full Stack Developer passionate about building responsive web applications, developer tools, and AI-powered solutions. Continuously learning modern technologies and creating projects that solve real-world problems.",
   about:
-    "Hi, I'm Suryanarayana, an aspiring software developer with a strong interest in web development, developer tools, and AI-powered applications. I enjoy turning ideas into practical solutions and continuously expanding my skills through hands-on learning and development. My experience includes working with Java, C++, Python, JavaScript, React, and MongoDB, while exploring modern technologies and improving my problem-solving abilities. My goal is to build meaningful software, gain real-world experience, and grow as a developer.",
+    "Hi, I'm Suryanarayana, an aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy transforming ideas into practical software solutions while continuously expanding my technical skills through hands-on projects. My experience includes Java, C++, Python, JavaScript, React, Node.js, Express.js, and MongoDB, along with exploring AI-powered applications and developer tools. My goal is to create impactful software, gain real-world experience, and grow into a skilled full stack developer.",
 };
 
 /**
@@ -34,7 +34,7 @@ export const projects = [
     tagsLabel: "Tech Stack",
     tags: ["TypeScript", "VS Code Extension API"],
   },
-   {
+  {
     id: "urbanwear",
     title: "Urban Wear",
     link: "https://github.com/SURYANARAYANA-01/UrbanWear",
@@ -73,6 +73,10 @@ export const skillGroups = [
   {
     category: "Web Development",
     skills: ["HTML", "CSS", "React"],
+  },
+  {
+    category: "Backend",
+    skills: ["Express.js", "Node.js", "REST APIs"],
   },
   {
     category: "Database",
