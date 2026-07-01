@@ -1,0 +1,33 @@
+.education-card {
+  display: flex;
+  gap: 22px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 32px;
+}
+
+.education-marker {
+  flex-shrink: 0;
+  width: 4px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-amber));
+}
+
+.education-degree {
+  font-size: 19px;
+  color: var(--text-primary);
+}
+
+.education-description {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .education-card {
+    padding: 24px;
+  }
+}
