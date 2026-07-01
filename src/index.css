@@ -1,9 +1,3 @@
-/* ==========================================================================
-   GLOBAL DESIGN TOKENS
-   A small, deliberate palette: a near-black editor-style canvas, one teal
-   accent for interactive elements, and three semantic status colors that
-   are reused consistently for project status badges across the site.
-   ========================================================================== */
 :root {
   /* Surfaces */
   --bg-base: #0a0d12;

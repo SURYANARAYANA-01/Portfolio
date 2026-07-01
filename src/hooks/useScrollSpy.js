@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
 
-/**
- * useScrollSpy
- * Watches a list of section ids and returns whichever one currently
- * occupies the middle band of the viewport, so the navbar can highlight
- * the active link as the user scrolls.
- */
 export function useScrollSpy(sectionIds) {
   const [activeId, setActiveId] = useState(sectionIds[0]);
 
@@ -21,7 +15,6 @@ export function useScrollSpy(sectionIds) {
         }
       },
       {
-        // Treat the vertical middle of the viewport as the "active" zone.
         rootMargin: "-40% 0px -50% 0px",
         threshold: 0,
       }

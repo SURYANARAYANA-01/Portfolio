@@ -3,8 +3,6 @@ import { profile } from "../../data/portfolioData";
 import { socialLinks } from "../../data/socialLinks";
 import "./Hero.css";
 
-// A small floating token cluster for the decorative panel — purely
-// presentational, echoes the "areas of interest" content visually.
 const focusTokens = ["React", "Python", "AI Apps", "Dev Tools", "Java", "MongoDB"];
 
 function Hero() {

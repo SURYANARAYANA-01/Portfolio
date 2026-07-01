@@ -10,14 +10,12 @@ function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const activeId = useScrollSpy(sectionIds);
 
-  // Add a subtle elevated background once the user scrolls past the hero.
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 12);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Lock body scroll while the mobile menu is open.
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
     return () => {

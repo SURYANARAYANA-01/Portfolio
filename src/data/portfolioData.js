@@ -1,9 +1,3 @@
-/**
- * PORTFOLIO CONTENT
- * All copy on the site is sourced from this file, so updating content
- * never requires touching component markup.
- */
-
 export const profile = {
   name: "Suryanarayana S",
   title: "B.Tech Information Technology Student",
@@ -13,10 +7,6 @@ export const profile = {
     "Hi, I'm Suryanarayana, an aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy transforming ideas into practical software solutions while continuously expanding my technical skills through hands-on projects. My experience includes Java, C++, Python, JavaScript, React, Node.js, Express.js, and MongoDB, along with exploring AI-powered applications and developer tools. My goal is to create impactful software, gain real-world experience, and grow into a skilled full stack developer.",
 };
 
-/**
- * Project status meta — drives both the badge label and the color token
- * used for that badge, so status is encoded once and reused everywhere.
- */
 export const statusMeta = {
   completed: { label: "Completed", cssClass: "status-completed" },
   "in-development": { label: "In Development", cssClass: "status-progress" },
@@ -103,7 +93,6 @@ export const interests = [
   "Productivity Solutions",
 ];
 
-/** Sections used to build the navbar and scroll-spy in one place. */
 export const navItems = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
