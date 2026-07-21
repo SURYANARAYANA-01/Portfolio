@@ -25,6 +25,16 @@ export const projects = [
     tags: ["TypeScript", "VS Code Extension API"],
   },
   {
+    id: "leave-ledger",
+    title: "LeaveLedger",
+    link: "https://leave-ledger-nine.vercel.app/",
+    status: "completed",
+    description:
+      "A full-stack employee leave management system that streamlines the process of requesting, approving, and tracking leave within an organization. Employees can submit leave requests and monitor their status, while administrators manage approvals, leave balances, and records through a centralized dashboard, reducing manual effort and improving transparency.",
+    tagsLabel: "Category",
+    tags: ["HR Management", "Productivity"],
+  },
+  {
     id: "urbanwear",
     title: "Urban Wear",
     link: "https://github.com/SURYANARAYANA-01/UrbanWear",
